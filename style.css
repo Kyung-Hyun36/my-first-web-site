@@ -1,5 +1,6 @@
-body {
+body, html {
     margin: 0;
+    height: 100%;
 }
 
 a {
@@ -25,6 +26,7 @@ ol {
 #grid {
     display: grid;
     grid-template-columns: 150px 1fr;
+    height: 100%;
 }
 
 #grid ol {
